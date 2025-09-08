@@ -1,4 +1,4 @@
-# Crossing points of circles (animation)
+# Intersection points of two circles (animation)
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -80,7 +80,7 @@ def get_cross_status(d, r0, r1):
 
 
 def set_axis():
-    ax.set_title("Crossing points of circles")
+    ax.set_title("Intersection points of two circles")
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_xlim(x_min, x_max)
